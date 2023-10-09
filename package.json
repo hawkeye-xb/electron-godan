@@ -1,11 +1,12 @@
 {
   "name": "electron-godan",
   "version": "0.0.1",
-  "description": "- [ ] 支持TS，支持VSCode Debug  - [ ] 可以打包成windows版、Mac版、Linux版、国产UOS、麒麟(不包括loongarch)  - [ ] 多窗口管理；使用BrowserView 多tab管理  - [ ] 事件驱动，rxjs  - [ ] 字节码加密  - [ ] 配置、通信、日志、插件（devtool）、升级（）",
+  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "npm run build && electron ./dist/main.js"
+    "complie": "tsc",
+    "start": "npm run complie && electron ./dist/main.js",
+    "build": "npm run complie && node ./build/scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/690591397/electron-godan#readme",
   "devDependencies": {
     "electron": "^26.3.0",
+    "electron-builder": "^24.6.4",
     "eslint": "^8.51.0",
     "typescript": "^5.2.2",
     "typescript-eslint": "^0.0.1-alpha.0"

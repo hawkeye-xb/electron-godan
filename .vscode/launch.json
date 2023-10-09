@@ -12,7 +12,7 @@
       },
       "args" : ["./dist/main.js"],
       "outputCapture": "std",
-      "preLaunchTask": "npm: build"
+      "preLaunchTask": "npm: complie"
     }
   ]
 }
