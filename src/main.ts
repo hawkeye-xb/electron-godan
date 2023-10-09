@@ -2,6 +2,7 @@ import { app, BrowserWindow } from "electron";
 import * as path from "path";
 
 function createWindow() {
+  console.log("createWindow2222");
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     height: 600,
