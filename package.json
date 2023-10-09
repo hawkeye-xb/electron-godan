@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/690591397/electron-godan/issues"
   },
-  "homepage": "https://github.com/690591397/electron-godan#readme"
+  "homepage": "https://github.com/690591397/electron-godan#readme",
+  "devDependencies": {
+    "electron": "^26.3.0",
+    "eslint": "^8.51.0",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  }
 }
