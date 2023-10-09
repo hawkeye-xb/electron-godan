@@ -17,20 +17,35 @@ builder.build({
       'package.json',
       'index.html'
     ],
-    // extraMetadata: {
-    //   main: 'dist/main.js',
-    // },
     extends: null,
     directories: {
-      // buildResources: './dist',
       output: 'output',
     },
     mac: {
-      target: 'dmg',
+      category: 'public.app-category.developer-tools',
+      targets: [
+        {
+          target: 'dmg',
+          arch: [
+            'x64', 'arm64'
+          ],
+        },
+        {
+          target: 'zip',
+          arch: [
+            'x64', 'arm64'
+          ],
+        }
+      ],
       entitlementsInherit: 'build/entitlements.mac.plist',
       entitlements: 'build/entitlements.mac.plist',
       icon: 'build/icons/icon.icns',
       asar: false,
+    },
+    linux: {
+      category: 'Development',
+      target: 'deb',
+      icon: 'build/icons/icon.png',
     }
   },
 })

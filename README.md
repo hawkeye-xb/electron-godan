@@ -3,6 +3,8 @@
  - [ ] 快速打包
   - [] windows
   - [] Mac
+   - [x] x86
+   - [x] arm64
   - [] Linux版
   - [] UOS
   - [] 麒麟(不包括loongarch)
