@@ -1,14 +1,14 @@
 ## 基础功能
  - [x] 支持TS，支持VSCode Debug
  - [ ] 快速打包
-  - [ ] windows
-  - [ ] windows nsis 开发调试流程
-  - [ ] Mac
-   - [x] x86
-   - [x] arm64
-  - [ ] Linux版
-  - [ ] UOS
-  - [ ] 麒麟(不包括loongarch)
+    - [ ] windows
+    - [ ] windows nsis 开发调试流程
+    - [ ] Mac
+      - [x] x86
+      - [x] arm64
+    - [ ] Linux版
+    - [ ] UOS
+    - [ ] 麒麟(不包括loongarch)
  - [ ] 字节码加密
  - [ ] 配置、通信、日志、插件（devtool）、升级（）
  - [ ] webpack
