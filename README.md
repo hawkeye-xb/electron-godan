@@ -9,7 +9,7 @@
     - [ ] Linux版
     - [ ] UOS
     - [ ] 麒麟(不包括loongarch)
- - [ ] 字节码加密
+ - [ ] v8字节码
  - [ ] 配置、通信、日志、插件（devtool）、升级（）
  - [ ] webpack？esbuild or tsc
  - [ ] 自动更新，版本问题
