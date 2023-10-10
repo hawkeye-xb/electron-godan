@@ -11,7 +11,7 @@
     - [ ] 麒麟(不包括loongarch)
  - [ ] 字节码加密
  - [ ] 配置、通信、日志、插件（devtool）、升级（）
- - [ ] webpack
+ - [ ] webpack？esbuild or tsc
  - [ ] 自动更新，版本问题
 
 ## 业务功能
