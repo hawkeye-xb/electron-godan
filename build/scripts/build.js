@@ -3,6 +3,7 @@ const Platform = builder.Platform;
 
 builder.build({
   targets: Platform.MAC.createTarget(),
+  // targets: Platform.LINUX.createTarget(),
   config: {
     appId: 'com.example.app',
     productName: 'example',
@@ -23,7 +24,7 @@ builder.build({
     },
     mac: {
       category: 'public.app-category.developer-tools',
-      targets: [
+      target: [
         {
           target: 'dmg',
           arch: [
@@ -40,7 +41,7 @@ builder.build({
       entitlementsInherit: 'build/entitlements.mac.plist',
       entitlements: 'build/entitlements.mac.plist',
       icon: 'build/icons/icon.icns',
-      asar: false,
+      asar: true,
     },
     linux: {
       category: 'Development',
