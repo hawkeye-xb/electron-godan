@@ -2,8 +2,8 @@ const builder = require('electron-builder');
 const Platform = builder.Platform;
 
 builder.build({
-  targets: Platform.MAC.createTarget(),
-  // targets: Platform.LINUX.createTarget(),
+  // targets: Platform.MAC.createTarget(),
+  targets: Platform.LINUX.createTarget(),
   config: {
     appId: 'com.example.app',
     productName: 'example',
@@ -48,6 +48,7 @@ builder.build({
       category: 'Development',
       target: 'deb',
       icon: 'build/icons/icon.png',
+      maintainer: 'your@contact.com'
     }
   },
 })
