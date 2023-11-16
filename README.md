@@ -10,6 +10,7 @@
     - [ ] UOS
     - [ ] 麒麟(不包括loongarch)
  - [ ] v8字节码
+    - [ ] 使用webpack 将所有js打包到一个
  - [ ] 配置、通信、日志、插件（devtool）、升级（）
  - [ ] webpack？esbuild or tsc
  - [ ] 自动更新，版本问题
