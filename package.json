@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/690591397/electron-godan#readme",
   "devDependencies": {
-    "electron": "^26.3.0",
-    "electron-builder": "^24.6.4",
+    "electron": "^27.1.0",
+    "electron-builder": "^24.9.0",
     "eslint": "^8.51.0",
     "typescript": "^5.2.2",
     "typescript-eslint": "^0.0.1-alpha.0"
