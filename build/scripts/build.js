@@ -42,6 +42,7 @@ builder.build({
       entitlements: 'build/entitlements.mac.plist',
       icon: 'build/icons/icon.icns',
       asar: true,
+      notarize: false,
     },
     linux: {
       category: 'Development',
