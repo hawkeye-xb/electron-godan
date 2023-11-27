@@ -7,7 +7,10 @@
       - [x] x86
       - [x] arm64
     - [ ] Linux版
+      - [x] .deb
+      - [x] unpacked
     - [ ] UOS
+      - [x] build 脚本调用
     - [ ] 麒麟(不包括loongarch)
  - [ ] v8字节码
     - [ ] 使用webpack 将所有js打包到一个

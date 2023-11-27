@@ -25,6 +25,7 @@
     "electron-builder": "^24.9.0",
     "eslint": "^8.51.0",
     "typescript": "^5.2.2",
-    "typescript-eslint": "^0.0.1-alpha.0"
+    "typescript-eslint": "^0.0.1-alpha.0",
+    "uos-bundle-script": "^0.1.3"
   }
 }
