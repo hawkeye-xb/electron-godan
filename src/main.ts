@@ -2,7 +2,6 @@ import { app, BrowserWindow } from "electron";
 import * as path from "path";
 
 function createWindow() {
-  console.log("createWindow2222");
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     height: 600,
@@ -16,7 +15,8 @@ function createWindow() {
   mainWindow.loadFile(path.join(__dirname, "../index.html"));
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // "Uncaught (in promise) TypeError: Failed to fetch", source: devtools://devtools/bundled/panels/elements/elements.js
+  // mainWindow.webContents.openDevTools();
 }
 
 // This method will be called when Electron has finished
