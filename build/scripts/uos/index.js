@@ -1,13 +1,13 @@
 const UOSBuilder = require('uos-bundle-script');
 const { join } = require('path');
 
-const outputPaths = ['/Users/zhaowenli/Learn/electron/electron-godan/output/linux-arm64-unpacked']
+const unpackedPaths = [join(process.cwd(), 'output', 'linux-arm64-unpacked')]
 
-const appId = 'com.example.app';
-const productName = 'example'; // 项目名称
+const appId = 'com.electron.godan';
+const productName = 'godan'; // 项目名称
 const buildVersion = '0.0.1';
 
-outputPaths.forEach((value) => {
+unpackedPaths.forEach((value) => {
   if (value.includes('linux') && value.includes('unpacked')) {
       const execFileName = 'electron-godan'; // package.json.name
       const output = join(process.cwd(), 'output', 'uos');
@@ -30,7 +30,7 @@ outputPaths.forEach((value) => {
           Type: 'Application',
           Exec: `/opt/apps/${appId}/files/${execFileName} %U --no-sandbox`,
           Icon: `${appId}`,
-          MimeType: 'MimeType=x-scheme-handler/[URL Scheme];x-scheme-handler/[URL Scheme]'
+          MimeType: 'MimeType=x-scheme-handler/electron-godan;x-scheme-handler/godan'
         },
         controlFile: {
           Source: appId,
