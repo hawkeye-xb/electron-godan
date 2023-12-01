@@ -10,8 +10,9 @@
       - [x] .deb
       - [x] unpacked
     - [ ] UOS
-      - [x] build 脚本调用
+      - [x] build 脚本
     - [ ] 麒麟(不包括loongarch)
+      - [x] build 脚本
  - [ ] v8字节码
     - [ ] 使用webpack 将所有js打包到一个
  - [ ] 配置、通信、日志、插件（devtool）、升级（）
